@@ -12,7 +12,7 @@ create table Medico(
 
 alter table Medico add column especializacao varchar(30);
 
-create table Pasciente(
+create table Paciente(
 	CPF int,
     nome int,
     idade tinyint(3),
@@ -32,6 +32,8 @@ value ('124', '1234562', 'F', 'Maria Eduarda', 'Cardiologista');
 
 insert into Medico(CRM, cpf, sexo, nome, especializacao)
 value (125, 1234563, 'F', 'Maria Clara', 'Cardiologista');
+
+
 
 
 
